@@ -90,6 +90,26 @@ export const PEOPLE_GROUPS: PeopleGroup[] = [
                     },
                 ],
             },
+            {
+                name: 'Krzysztof Baczyński',
+                role: 'Researcher, PhD',
+                bio:
+                    'Computational biophysicist by training. Senior Cheminformatics Engineer ' +
+                    'with a background as a Senior Data Scientist and Cheminformatician at Ryvu ' +
+                    'Therapeutics and Selvita. My scientific interests focus on cheminformatics ' +
+                    'and CADD for early-stage drug discovery, particularly QSAR/QSPR modeling, ' +
+                    'chemical space exploration, molecular representations, and screening library design.',
+                links: [
+                    {
+                        label: 'ORCID',
+                        href: 'https://orcid.org/0009-0005-9569-2496',
+                    },
+                    {
+                        label: 'LinkedIn',
+                        href: 'https://www.linkedin.com/in/krzysztof-baczy%C5%84ski-a721b7197/',
+                    },
+                ],
+            },
         ],
     },
     {

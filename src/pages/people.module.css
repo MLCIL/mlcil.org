@@ -14,6 +14,14 @@
     color: var(--mlcil-ink-muted);
 }
 
+/* The four justified bios need roughly 250px of text width each before a
+   phrase like "training. Senior Cheminformatics" stops splitting across two
+   lines; the default 1140px container leaves only ~228px. Widen the container
+   on this page only, so the headings stay flush with the grid. */
+.main {
+    --mlcil-maxw: 1240px;
+}
+
 /* Small vertical boxes: portrait on top, details below. */
 .grid {
     display: grid;

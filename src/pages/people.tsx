@@ -1,4 +1,5 @@
 import type {ReactNode} from 'react';
+import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
@@ -20,7 +21,7 @@ export default function PeoplePage(): ReactNode {
         >
             <PageHeader title="Our team" />
 
-            <main className="mlcil-section">
+            <main className={clsx('mlcil-section', styles.main)}>
                 <div className="mlcil-container">
                     <PersonFeature person={LAB_LEAD} />
 
