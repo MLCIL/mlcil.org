@@ -121,9 +121,10 @@ export const PEOPLE_GROUPS: PeopleGroup[] = [
                 role: 'PhD student',
                 photo: 'img/people/Mateusz_Praski.jpeg',
                 bio:
-                    'Researching molecular representation learning and foundation models for ' +
-                    'chemistry. My work focuses on benchmarking models and Bayesian statistical ' +
-                    'analysis for fair evaluation. Working as a Senior ML Specialist at Selvita.',
+                    'Researching molecular representation learning, pre-trained models for chemistry, ' +
+                    'and fair evaluation of molecular representations. ' +
+                    'Working as a Senior ML Specialist at Selvita, ' +
+                    'mainly on protein representation learning.',
                 links: [
                     {
                         label: 'Google Scholar',
