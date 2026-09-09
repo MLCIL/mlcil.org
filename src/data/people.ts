@@ -119,6 +119,7 @@ export const PEOPLE_GROUPS: PeopleGroup[] = [
             {
                 name: 'Mateusz Praski',
                 role: 'PhD student',
+                photo: 'img/people/Mateusz_Praski.jpeg',
                 bio:
                     'Researching molecular representation learning and foundation models for ' +
                     'chemistry. My work focuses on benchmarking models and Bayesian statistical ' +
@@ -292,6 +293,43 @@ export const PEOPLE_GROUPS: PeopleGroup[] = [
                     {
                         label: 'GitHub',
                         href: 'https://github.com/przemuuu',
+                    },
+                ],
+            },
+            {
+                name: 'Iga Antonik',
+                role: 'MSc student',
+                bio:
+                    'My research concerns developing datasets and QSAR/QSPR models for' +
+                    'novel psychoactive substances (NPS). Working as a Software Engineer ' +
+                    'at Google.',
+                links: [
+                    {
+                        label: 'LinkedIn',
+                        href: 'https://www.linkedin.com/in/iga-antonik/',
+                    },
+                    {
+                        label: 'GitHub',
+                        href: 'https://github.com/igaantonik',
+                    },
+                ],
+            },
+            {
+                name: 'Jakub Ciszewski',
+                role: 'MSc student',
+                photo: 'img/people/Jakub_Ciszewski.jpg',
+                bio:
+                    'My research concerns developing datasets and software for' +
+                    'novel psychoactive substances (NPS). Working as a Software Developer ' +
+                    'at Motorola Solutions.',
+                links: [
+                    {
+                        label: 'LinkedIn',
+                        href: 'https://www.linkedin.com/in/jakub-ciszewski-b2b948332/',
+                    },
+                    {
+                        label: 'GitHub',
+                        href: 'https://github.com/domino644',
                     },
                 ],
             },
